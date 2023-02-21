@@ -35,7 +35,7 @@ public class ClienteTest {
 		assertEquals(NOMBRE_VALIDO, cliente.getNombre());
 		assertEquals(DNI_VALIDO, cliente.getDni());
 		assertEquals(TELEFONO_VALIDO, cliente.getTelefono());
-		cliente = new Cliente("Bob", DNI_VALIDO, TELEFONO_VALIDO);
+		cliente = new Cliente("Bob Esponja", DNI_VALIDO, TELEFONO_VALIDO);
 	}
 	
 	@Test
